@@ -9,7 +9,7 @@ class App extends Component {
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <p>
-            Hi there! I was updated!
+            Hi there! I was automatically deployed by TravisCI on AWS beanstalk!
           </p>
           <a
             className="App-link"
