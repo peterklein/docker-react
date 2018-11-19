@@ -10,6 +10,7 @@ COPY . .
 
 RUN npm run build
 
+EXPOSE 80
 
 # Second phase to run nginx
 FROM nginx
