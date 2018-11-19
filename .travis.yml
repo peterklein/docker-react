@@ -1,0 +1,9 @@
+sudo: required
+services:
+  - docker
+
+before_install:
+  - docker build -t derpiet/docker-react -f Docklerfile.dev .
+
+script:
+  - docker run derpiet/docker-react npm run test -- --coverage
